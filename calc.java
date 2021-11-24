@@ -1,3 +1,4 @@
+
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
@@ -128,7 +129,7 @@ class calculator extends JFrame implements ActionListener {
 
 			l.setText(s0 + s1 + s2);
 		}
-		else if (s.charAt(0) == '=') {
+		else if (s.charAt(0) == '='){
 
 			double te;
 
